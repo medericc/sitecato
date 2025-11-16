@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Ressources Catholiques',
     images: [
       {
-        url: 'https://app-catholique.vercel.app/og-image.jpg',
+        url: 'https://app-catholique.vercel.app/preview.jpg',
         width: 1200,
         height: 630,
         alt: 'Ressources Catholiques',
