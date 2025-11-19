@@ -41,16 +41,16 @@ export default function ButtonGrid() {
       icon: "🎬",
       color: "from-red-600 to-red-700",
       hoverColor: "hover:from-red-600 hover:to-red-700",
-      url: "https://www.youtube.com/@france_jeunesse"
+      url: "https://www.youtube.com/@france_jeunesse/videos"
     }
     ,
     {
-      title: "Jeux Play Store",
-      description: "Jeux de société et quiz sur le christianisme",
+      title: "Jeux Web & Mobile",
+      description: "Jeux de société et mobile sur le christianisme",
       icon: "🎲",
       color: "from-pink-600 to-pink-700",
       hoverColor: "hover:from-pink-600 hover:to-pink-700",
-      url: "https://play.google.com/store/apps/developer?id=medericcc&hl=fr"
+      url: "jeux-catholiques.vercel.app"
     }
   ]
 
