@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Ressources Catholiques',
     description: 'Découvrez la vie des saints, les écrits des docteurs et les ressources pour défendre la foi.',
-    url: 'https://app-catholique.vercel.app/',
+    url: 'https://www.appcatholique.com/',
     siteName: 'Ressources Catholiques',
     images: [
       {
-        url: 'https://app-catholique.vercel.app/preview.jpg',
+        url: 'https://www.appcatholique.com/preview.jpg',
         width: 1200,
         height: 630,
         alt: 'Ressources Catholiques',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Ressources Catholiques',
     description: 'Découvrez la vie des saints, les écrits des docteurs et combattez les hérésies.',
-    images: ['https://app-catholique.vercel.app/og-image.jpg'],
+    images: ['https://www.appcatholique.com/preview.jpg'],
   },
 };
 
