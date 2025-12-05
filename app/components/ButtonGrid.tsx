@@ -33,7 +33,7 @@ export default function ButtonGrid() {
       icon: "🏰",
       color: "from-green-600 to-green-700",
       hoverColor: "hover:from-green-600 hover:to-green-700",
-      url: "https://bearn.vercel.app/"
+      url: "https://www.histoirebearn.fr/"
     },
     {
       title: "Films Catholiques",
@@ -50,7 +50,7 @@ export default function ButtonGrid() {
       icon: "🎲",
       color: "from-pink-600 to-pink-700",
       hoverColor: "hover:from-pink-600 hover:to-pink-700",
-      url: "jeux-catholiques.vercel.app"
+      url: "https://jeux-catholiques.vercel.app"
     }
   ]
 
