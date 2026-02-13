@@ -13,12 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Ressources Catholiques — Vie des Saints, Docteurs de l’Église, Défense de la Foi',
-  description: 'Découvrez la vie des saints, les écrits des docteurs de l’Église et défendez la vérité catholique avec des ressources fiables et inspirantes.',
-  manifest: '/manifest.json',
+   title: "Source Théologique Catholique – Apprendre la Foi et la Doctrine",
+    description:
+    "Source théologique catholique complète pour apprendre la doctrine, les écrits des docteurs de l’Église et approfondir la foi chrétienne.",
+manifest: '/manifest.json',
   themeColor: '#ffffff',
-  keywords: ['saints', 'docteurs de l’église', 'théologie catholique', 'hérésies', 'foi chrétienne', 'ressources catholiques'],
-  openGraph: {
+   keywords: [
+    "source théologique catholique",
+    "apprendre théologie catholique",
+    "doctrine catholique expliquée",
+    "formation théologie catholique",
+    "écrits docteurs Église"
+  ], openGraph: {
     title: 'Ressources Catholiques',
     description: 'Découvrez la vie des saints, les écrits des docteurs et les ressources pour défendre la foi.',
     url: 'https://www.appcatholique.com/',
@@ -50,7 +56,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
