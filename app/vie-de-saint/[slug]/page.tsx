@@ -9,11 +9,11 @@ interface PageProps {
   params: { slug: string }
 }
 
-export async function generateStaticParams() {
-  return Object.keys(saintsData).map((slug) => ({
-    slug,
-  }))
-}
+// export async function generateStaticParams() {
+//   return Object.keys(saintsData).map((slug) => ({
+//     slug,
+//   }))
+// }
 
 export default async function SaintPage({ params }: PageProps) {
   const { slug } = params
