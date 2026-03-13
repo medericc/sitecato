@@ -24,7 +24,7 @@ export default async function SaintPage({ params }: PageProps) {
         {/* Navigation discrète */}
         <div className="mb-8">
           <Link 
-            href="/"
+            href="/vie-de-saint"
             className="inline-flex items-center text-gold hover:text-gold-dark font-medium transition-colors group"
           >
             <ArrowLeft size={18} className="mr-2 group-hover:-translate-x-1 transition-transform" />
@@ -102,7 +102,7 @@ export default async function SaintPage({ params }: PageProps) {
           </h2>
           <div className="flex justify-center">
             <Link 
-              href="/"
+              href="/vie-de-saint"
               className="inline-flex items-center px-6 py-3 bg-gold text-white rounded-full hover:bg-gold-dark transition-colors font-medium"
             >
               Explorer tous les saints

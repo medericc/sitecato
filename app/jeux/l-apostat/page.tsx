@@ -40,7 +40,7 @@ export default function Home() {
         {/* Boutons d'action */}
         <div className="space-y-4">
           <Link 
-            href="/game" 
+            href="/jeux/l-apostat/game" 
             onClick={handleNewGame}
             className="block w-full max-w-xs mx-auto"
           >
@@ -50,7 +50,7 @@ export default function Home() {
           </Link>
 
           {players.length > 0 && (
-            <Link href="/game" className="block w-full max-w-xs mx-auto">
+            <Link href="/jeux/l-apostat/game" className="block w-full max-w-xs mx-auto">
               <button className="w-full bg-gradient-to-r from-slate-600 to-slate-700 hover:from-slate-500 hover:to-slate-600 text-gray-200 font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 border border-yellow-600/50">
                 ➕ REPRENDRE LA PARTIE
               </button>

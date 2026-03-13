@@ -19,7 +19,7 @@ export default function HomeScreen() {
           </p>
           
           <div className="text-center">
-            <Link href="/setup">
+            <Link href="/jeux/trivia-biblique/setup">
               <button className="bg-brown-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-brown-800 transition-colors border border-brown-900">
                 COMMENCER LE JEU
               </button>

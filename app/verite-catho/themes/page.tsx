@@ -41,7 +41,7 @@ export default function ThemeSearchPage() {
       {/* 🔙 Lien retour */}
       <nav className="mb-8">
         <Link
-          href="/"
+          href="/verite-catho"
           className="text-huitcent hover:text-green-800 inline-flex items-center gap-2"
         >
           <svg

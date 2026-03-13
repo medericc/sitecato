@@ -85,7 +85,7 @@ export default function RootLayout({
               {/* Logo/Titre */}
               <div className="flex items-center space-x-4">
                 <Link
-                  href="/"
+                  href="/verite-catho/"
                   className="flex items-center space-x-3"
                   aria-label="Retour à l'accueil"
                 >

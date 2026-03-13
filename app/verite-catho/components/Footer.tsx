@@ -28,25 +28,25 @@ export default function Footer() {
           {/* Liens obligatoires */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-6 text-sm text-accent-light">
             <Link // 👈 Remplacement de <a> par Link
-              href="/politique-confidentialite"
+              href="/verite-catho/politique-confidentialite"
               className="hover:text-white transition-colors duration-200"
             >
               Politique de confidentialité
             </Link>
             <Link // 👈 Remplacement de <a> par Link
-              href="/mentions-legales"
+              href="/verite-catho/mentions-legales"
               className="hover:text-white transition-colors duration-200"
             >
               Mentions légales
             </Link>
             <Link // 👈 Remplacement de <a> par Link
-              href="/cookies"
+              href="/verite-catho/cookies"
               className="hover:text-white transition-colors duration-200"
             >
               Gestion des cookies
             </Link>
             <Link // 👈 Remplacement de <a> par Link
-              href="/contact"
+              href="/verite-catho/contact"
               className="hover:text-white transition-colors duration-200"
             >
               Contact

@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/vie-de-saint" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gold rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">✝</span>
             </div>
@@ -21,10 +21,10 @@ export default function Navbar() {
 
           {/* Menu Desktop */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-gold transition-colors">
+            <Link href="/vie-de-saint" className="text-gray-700 hover:text-gold transition-colors">
               Accueil
             </Link>
-          <Link href="/a-propos" className="text-gray-700 hover:text-gold transition-colors">
+            <Link href="/vie-de-saint/a-propos" className="text-gray-700 hover:text-gold transition-colors">
               À propos
             </Link>
           </div>
@@ -42,10 +42,10 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden absolute top-16 left-0 right-0 bg-white border-b border-gray-200">
             <div className="px-4 py-2 space-y-4">
-              <Link href="/" className="block py-2 text-gray-700 hover:text-gold">
+              <Link href="/vie-de-saint" className="block py-2 text-gray-700 hover:text-gold">
                 Accueil
               </Link>
-           <Link href="/a-propos" className="block py-2 text-gray-700 hover:text-gold">
+              <Link href="/vie-de-saint/a-propos" className="block py-2 text-gray-700 hover:text-gold">
                 À propos
               </Link>
             </div>

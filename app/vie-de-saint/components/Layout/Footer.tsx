@@ -17,11 +17,11 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="font-playfair text-lg font-semibold">Navigation</h3>
             <div className="space-y-2">
-              <Link href="/" className="block text-gray-300 hover:text-gold transition-colors">
+              <Link href="/vie-de-saint" className="block text-gray-300 hover:text-gold transition-colors">
                 Accueil
               </Link>
             
-              <Link href="/a-propos" className="block text-gray-300 hover:text-gold transition-colors">
+              <Link href="/vie-de-saint/a-propos" className="block text-gray-300 hover:text-gold transition-colors">
                 À propos
               </Link>
             </div>

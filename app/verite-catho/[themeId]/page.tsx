@@ -69,7 +69,7 @@ export default async function ThemePage({ params }: { params: Promise<{ themeId:
       <div className="flex flex-col sm:flex-row justify-center gap-4">
         {/* Voir PDF */}
         <a
-          href="/essai"
+          href="/verite-catho/essai"
           target="_blank"
           className="
             inline-flex items-center justify-center gap-2 
