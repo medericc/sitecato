@@ -10,9 +10,9 @@ export default function Navigation() {
   const pathname = usePathname();
 
   const navItems = [
-    { href: '/', label: 'Accueil' },
-    { href: '/themes', label: 'Tous les thèmes' },
-    { href: '/about', label: 'À propos' },
+    { href: '/verite-catho', label: 'Accueil' },
+    { href: '/verite-catho/themes', label: 'Tous les thèmes' },
+    { href: '/verite-catho/about', label: 'À propos' },
   ];
 
   const isActive = (href: string) => {
