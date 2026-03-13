@@ -9,6 +9,7 @@ const work_Sans = Work_Sans({
 });
 
 export const metadata: Metadata = {
+   metadataBase: new URL("https://www.appcatholique.com/livre-catholique/"),
   title: "BibleEnMain – Pères de l'Église, Docteurs, Jean-Paul II, Benoît XVI",
   description: "Accédez aux écrits des Pères de l'Église, aux textes des Docteurs de l'Église, à la pensée de Jean-Paul II et Benoît XVI, commentés et expliqués.",
   keywords: [
@@ -25,6 +26,9 @@ export const metadata: Metadata = {
     "Tradition chrétienne"
   ],
   authors: [{ name: "BibleEnMain", url: "https://www.appcatholique.com/livre-catholique/" }],
+ alternates: {
+  canonical: "/",
+},
   openGraph: {
     title: "BibleEnMain – Trésor des Écrits Catholiques",
     description: "Découvrez les trésors de la Tradition chrétienne : Pères de l'Église, Docteurs, papes modernes.",
@@ -32,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "BibleEnMain",
     images: [
       {
-        url: "https://www.appcatholique.com/livre-catholique/og-image.png",
+        url: "https://www.appcatholique.com/preview.jpg",
         width: 1200,
         height: 630,
         alt: "BibleEnMain – Écrits patristiques et contemporains",
@@ -47,7 +51,7 @@ export const metadata: Metadata = {
     creator: "@bibleenmain",
     title: "BibleEnMain – Textes de la Tradition chrétienne",
     description: "Explorez les écrits patristiques, magistériels et spirituels de la tradition catholique.",
-    images: ["https://www.appcatholique.com/livre-catholique/og-image.png"],
+    images: ["https://www.appcatholique.com/preview.jpg"],
   },
   icons: {
     icon: "/favicon.ico",

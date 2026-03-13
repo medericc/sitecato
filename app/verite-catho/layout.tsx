@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: 'Catholicisme vs Hérésie',
     description:
       'Découvrez la foi catholique véritable : la Bible, la Tradition, et l’enseignement de l’Église unis pour la vérité du Christ.',
-    creator: '@votre_compte',
+    
     images: ['/preview.jpg'],
   },
   alternates: {

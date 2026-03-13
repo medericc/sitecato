@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: 'https://www.appcatholique.com/vie-de-saint',
     images: [
       {
-        url: '/preview.png',
+        url: '/preview.jpg',
         width: 1200,
         height: 630,
         alt: 'Aperçu du site Vie des Saints'
@@ -39,18 +39,9 @@ export const metadata: Metadata = {
     title: 'Vie des Saints — Inspirations catholiques',
     description:
       'Histoires, vertus et biographies de saints et figures catholiques.',
-    images: ['/preview.png']
+    images: ['/preview.jpg']
   },
-  icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/icon0.png' },
-      { url: '/icon1.png' },
-      { url: '/web-app-manifest-192x192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/web-app-manifest-512x512.png', sizes: '512x512', type: 'image/png' },
-    ],
-    apple: '/apple-icon.png'
-  },
+
   manifest: '/manifest.json',
   alternates: {
     canonical: 'https://www.appcatholique.com/vie-de-saint'

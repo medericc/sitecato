@@ -13,32 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.appcatholique.com"),
-   title: "Source Théologique Catholique – Apprendre la Foi et la Doctrine",
-    description:
-    "Source théologique catholique complète pour apprendre la doctrine, les écrits des docteurs de l’Église et approfondir la foi chrétienne.",
-alternates: {
+   metadataBase: new URL("https://www.appcatholique.com/jeux"),
+  title: 'Jeux Catholiques — Juste Un, Trivia Biblique, l\'Apostat',
+  description: 'Découvrez des jeux avec le christianisme.',
+ alternates: {
   canonical: "/",
 },
-    manifest: '/manifest.json',
+  manifest: '/manifest.json',
   themeColor: '#ffffff',
-   keywords: [
-    "source théologique catholique",
-    "apprendre théologie catholique",
-    "doctrine catholique expliquée",
-    "formation théologie catholique",
-    "écrits docteurs Église"
-  ], openGraph: {
-    title: 'Ressources Catholiques',
-    description: 'Découvrez la vie des saints, les écrits des docteurs et les ressources pour défendre la foi.',
-    url: 'https://www.appcatholique.com/',
-    siteName: 'Ressources Catholiques',
+  keywords: ['jeux', 'foi chrétienne', 'Jeux catholiques'],
+  openGraph: {
+    title: 'Jeux Catholiques',
+    description: 'Découvrez des jeux avec le christianisme',
+    url: 'https://www.appcatholique.com/jeux',
+    siteName: 'Jeux Catholiques',
     images: [
       {
         url: 'https://www.appcatholique.com/preview.jpg',
         width: 1200,
         height: 630,
-        alt: 'Ressources Catholiques',
+        alt: 'Jeux Catholiques',
       },
     ],
     locale: 'fr_FR',
@@ -46,8 +40,8 @@ alternates: {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ressources Catholiques',
-    description: 'Découvrez la vie des saints, les écrits des docteurs et combattez les hérésies.',
+    title: 'Jeux Catholiques',
+    description: 'Découvrez des jeux avec le christianisme',
     images: ['https://www.appcatholique.com/preview.jpg'],
   },
 };
@@ -60,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -50,7 +50,7 @@ export default function ButtonGrid() {
       icon: "🎲",
       color: "from-pink-600 to-pink-700",
       hoverColor: "hover:from-pink-600 hover:to-pink-700",
-      url: "https://jeux-catholiques.vercel.app"
+      url: "https://www.appcatholique.com/jeux"
     }
   ]
 
