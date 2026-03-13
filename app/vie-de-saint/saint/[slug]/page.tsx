@@ -6,13 +6,16 @@ import CollapsibleSection from '../../components/CollapsibleSection'
 import saintsData from '../../data/saints.json'
 
 interface PageProps {
-  params: Promise<{ slug: string }>
+  params: { slug: string }
 }
 
 export default async function SaintPage({ params }: PageProps) {
-  const { slug } = await params
+  const { slug } = params
+
   const saint = saintsData[slug as keyof typeof saintsData]
-console.log("Slug reçu:", slug, "Saint trouvé:", saint)
+
+  console.log("Slug reçu:", slug, "Saint trouvé:", saint)
+
   if (!saint) {
     notFound()
   }
