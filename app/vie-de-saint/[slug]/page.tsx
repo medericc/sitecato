@@ -102,9 +102,9 @@ export default async function SaintPage({ params }: PageProps) {
         defaultOpen={sectionKey === Object.keys(saint.biography)[0]} // ouvre la première section
       >
         <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-            {sectionText}
-          </p>
+         <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+  {sectionText as string}
+</p>
         </div>
       </CollapsibleSection>
   ))}
