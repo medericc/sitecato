@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, Share2, Calendar, MapPin } from 'lucide-react'
-import VirtueBadge from '../../components/VirtueBadge'
 import CollapsibleSection from '../../components/CollapsibleSection'
 import saintsData from '../../data/saints.json'
 
@@ -13,7 +12,7 @@ interface PageProps {
 export default async function SaintPage({ params }: PageProps) {
   const { slug } = await params
   const saint = saintsData[slug as keyof typeof saintsData]
-
+console.log("Slug reçu:", slug, "Saint trouvé:", saint)
   if (!saint) {
     notFound()
   }
