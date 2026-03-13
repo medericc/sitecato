@@ -8,10 +8,13 @@ import saintsData from '../../data/saints.json'
 interface PageProps {
   params: { slug: string }
 }
+
 export async function generateStaticParams() {
   return Object.keys(saintsData).map((slug) => ({
     slug,
   }))
+}
+
 export default async function SaintPage({ params }: PageProps) {
   const { slug } = params
 
@@ -23,7 +26,6 @@ export default async function SaintPage({ params }: PageProps) {
     notFound()
   }
 
-}
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50/30 to-cream">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
