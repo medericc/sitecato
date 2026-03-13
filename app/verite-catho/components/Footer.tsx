@@ -46,10 +46,10 @@ export default function Footer() {
               Gestion des cookies
             </Link>
             <Link // 👈 Remplacement de <a> par Link
-              href="/verite-catho/contact"
+              href="/"
               className="hover:text-white transition-colors duration-200"
             >
-              Contact
+              Retour
             </Link>
           </div>
 
