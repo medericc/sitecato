@@ -21,7 +21,7 @@ alternates: {
   canonical: "/",
 },
     manifest: '/manifest.json',
-  themeColor: '#ffffff',
+  
    keywords: [
     "source théologique catholique",
     "apprendre théologie catholique",
@@ -52,7 +52,9 @@ alternates: {
   },
 };
 
-
+export const viewport = {
+  themeColor: "#ffffff"
+}
 
 export default function RootLayout({
   children,

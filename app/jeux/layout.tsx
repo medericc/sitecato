@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   canonical: "/",
 },
   manifest: '/manifest.json',
-  themeColor: '#ffffff',
+
   keywords: ['jeux', 'foi chrétienne', 'Jeux catholiques'],
   openGraph: {
     title: 'Jeux Catholiques',
@@ -46,7 +46,9 @@ export const metadata: Metadata = {
   },
 };
 
-
+export const viewport = {
+  themeColor: "#ffffff"
+}
 
 export default function RootLayout({
   children,
