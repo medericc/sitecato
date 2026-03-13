@@ -25,7 +25,7 @@ export default function ButtonGrid() {
       icon: "⚔️",
       color: "from-amber-600 to-amber-700",
       hoverColor: "hover:from-amber-600 hover:to-amber-700",
-      url: "https://cato-heresie.vercel.app/"
+      url: "https://www.appcatholique.com/verite-catho"
     },
     {
       title: "Le Béarn Chrétien",
