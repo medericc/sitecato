@@ -70,7 +70,7 @@ export default function VotePage() {
   // 🔥 CORRECTION : Vérifier fin de partie
   useEffect(() => {
     if (phase === 'gameEnd') {
-      router.push('/score');
+      router.push('/jeux/l-apostat/score');
       return;
     }
 
@@ -145,7 +145,7 @@ export default function VotePage() {
                 onClick={() => {
                   // La manche est terminée, eliminatePlayer a déjà attribué les points
                   // On va à la page de score qui affichera les résultats
-                  router.push('/score');
+                  router.push('/jeux/l-apostatscore');
                 }}
                 className="w-full max-w-xs py-4 px-8 bg-gradient-to-r from-yellow-600 to-yellow-700 hover:from-yellow-500 hover:to-yellow-600 text-slate-900 font-bold rounded-xl text-lg transition-all duration-300"
               >

@@ -30,7 +30,7 @@ export default function SetupScreen() {
       currentTeamIndex: gameState.currentTeamIndex
     }));
 
-    router.push('/game');
+    router.push('/jeux/trivia-biblique/game');
   };
 
   return (

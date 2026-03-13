@@ -18,7 +18,7 @@ export default function GamePage() {
   const handleStartGame = () => {
     assignRoles();
     markRulesAsShown();
-    router.push('/play');
+    router.push('/jeux/l-apostat/play');
   };
 
 
@@ -78,7 +78,7 @@ export default function GamePage() {
                     // Réinitialiser pour nouvelle partie
                     useGameStore.getState().resetGame();
                     assignRoles();
-                    router.push('/game');
+                    router.push('/jeux/trivia-biblique/game');
                   }}
                   className="text-gray-100/70 hover:text-gray-100 text-sm underline transition-colors"
                 >

@@ -125,10 +125,10 @@ const teams = (data.teams as RawTeam[]).map((t) => {
           
         } catch (error) {
           console.error('Erreur chargement jeu:', error);
-          router.push('/');
+          router.push('/jeux/trivia-biblique');
         }
       } else {
-        router.push('/');
+        router.push('/jeux/trivia-biblique');
       }
     };
 

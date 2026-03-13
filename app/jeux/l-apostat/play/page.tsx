@@ -19,7 +19,7 @@ export default function PlayPage() {
 
   const handleNext = () => {
     if (isLastPlayer) {
-      router.push('/vote');
+      router.push('/jeux/l-apostat/vote');
     } else {
       setCurrentPlayerIndex(prev => prev + 1);
       setShowWord(false);

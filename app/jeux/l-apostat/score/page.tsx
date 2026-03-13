@@ -22,12 +22,12 @@ if (!players || players.length === 0) {
 
   const handleNextRound = () => {
     nextRound();
-    router.push('/game');
+    router.push('/jeux/l-apostat/game');
   };
 
   const handleNewGame = () => {
     resetGame();
-    router.push('/');
+    router.push('/jeux/l-apostat');
   };
 
   return (

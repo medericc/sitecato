@@ -14,7 +14,7 @@ export default function Header() {
   };
 
   const handleLogoClick = () => {
-    router.push("/"); // Always navigate to the homepage
+    router.push("/jeux/trivia-biblique/"); // Always navigate to the homepage
   };
 
   return (
