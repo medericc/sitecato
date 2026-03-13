@@ -5,22 +5,31 @@ import { ArrowLeft, Share2, Calendar, MapPin } from 'lucide-react'
 import CollapsibleSection from '../components/CollapsibleSection'
 import saintsData from '../data/saints.json'
 
+// On s'assure que TypeScript comprend que saintsData est un dictionnaire de clés string
+type SaintsData = Record<string, any>
+const typedSaintsData: SaintsData = saintsData
+
 interface PageProps {
-  params: { slug: string }
+  // 1. LA MODIFICATION CLÉ : params est maintenant une Promise
+  params: Promise<{ slug: string }> 
 }
 
 export async function generateStaticParams() {
-  return Object.keys(saintsData).map((slug) => ({
+  // Ton code original était parfait pour un objet JSON !
+  return Object.keys(typedSaintsData).map((slug) => ({
     slug,
   }))
 }
 
 export default async function SaintPage({ params }: PageProps) {
-  const { slug } = params
+  // 2. LA SECONDE MODIFICATION CLÉ : on 'await' les params
+  const resolvedParams = await params
+  const { slug } = resolvedParams
 
-  const saint = saintsData[slug as keyof typeof saintsData]
+  // 3. On récupère le saint avec la clé
+  const saint = typedSaintsData[slug]
 
-  console.log("Slug reçu:", slug, "Saint trouvé:", saint)
+  console.log("Slug reçu : ", slug, "Saint trouvé : ", saint?.name)
 
   if (!saint) {
     notFound()
