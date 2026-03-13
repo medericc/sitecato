@@ -22,7 +22,7 @@ export default function ButtonGrid() {
       icon: "🕵️‍♀️",
       color: "from-blue-600 to-blue-700",
       hoverColor: "hover:from-blue-600 hover:to-blue-700",
-      url: "https://www.appcatholique.com/l-apostat"
+      url: "https://www.appcatholique.com/jeux/l-apostat"
     },
     {
       title: "Juste Un",
@@ -30,7 +30,7 @@ export default function ButtonGrid() {
       icon: "💬",
       color: "from-purple-600 to-purple-700",
       hoverColor: "hover:from-purple-600 hover:to-purple-700",
-      url: "https://www.appcatholique.com/juste-un"
+      url: "https://www.appcatholique.com/jeux/juste-un"
     },
     {
       title: "Trivia Biblique",
@@ -38,7 +38,7 @@ export default function ButtonGrid() {
       icon: "📖",
       color: "from-amber-600 to-amber-700",
       hoverColor: "hover:from-amber-600 hover:to-amber-700",
-      url: "https://www.appcatholique.com/trivia-biblique"
+      url: "https://www.appcatholique.com/jeux/trivia-biblique"
     }
 
     // , // { // title: "Jeux Play Store", // description: "Jeux de société et quiz sur le christianisme", // icon: "🎲", // color: "from-pink-600 to-pink-700", // hoverColor: "hover:from-pink-600 hover:to-pink-700", // url: "https://play.google.com/store/apps/developer?id=medericcc&hl=fr" // }
