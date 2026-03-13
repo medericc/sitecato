@@ -1,5 +1,6 @@
 'use client'
-// verifier layout
+
+// https://www.appcatholique.com/livre-catholique
 // "https://www.sourcetheologique.com/"
 export default function ButtonGrid() {
   const buttons = [
@@ -17,7 +18,7 @@ export default function ButtonGrid() {
       icon: "📚",
       color: "from-purple-600 to-purple-700",
       hoverColor: "hover:from-purple-600 hover:to-purple-700",
-      url: "https://www.appcatholique.com/livre-catholique"
+      url: "https://www.sourcetheologique.com/"
     },
     {
       title: "Combattre les Hérésies",
