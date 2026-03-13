@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, Share2, Calendar, MapPin } from 'lucide-react'
-import CollapsibleSection from '../../components/CollapsibleSection'
-import saintsData from '../../data/saints.json'
+import CollapsibleSection from '../components/CollapsibleSection'
+import saintsData from '../data/saints.json'
 
 interface PageProps {
   params: { slug: string }
