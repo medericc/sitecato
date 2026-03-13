@@ -95,7 +95,7 @@ export default function ThemeSearchPage() {
               <div key={q.id} className="border-l-4 border-neufcent pl-4 ">
                 <p className="text-sm text-slate-500 mb-3">
                   <Link
-                    href={`/${q.themeId}/${q.domaineId}`}
+                    href={`/verite-catho/${q.themeId}/${q.domaineId}`}
                     className="hover:underline text-huitcent font-medium"
                   >
                     {q.themeTitre} → {q.domaineTitre}

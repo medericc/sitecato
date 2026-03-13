@@ -26,7 +26,7 @@ export default async function ThemePage({ params }: { params: Promise<{ themeId:
         {(theme.domaines ?? []).map((domaine) => (
           <Link
             key={domaine.id}
-            href={`/${themeId}/${domaine.id}`}
+            href={`/verite-catho/${themeId}/${domaine.id}`}
             className="
               bg-white 
               rounded-lg 
