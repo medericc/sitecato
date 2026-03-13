@@ -12,7 +12,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vie-de-saints.vercel.app/'),
+  metadataBase: new URL('https://www.appcatholique.com/vie-de-saint'),
   title: {
     default: 'Vie des Saints — Figures catholiques & vertus',
     template: '%s | Vie des Saints'
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: 'Vie des Saints — Figures catholiques & inspirations spirituelles',
     description:
       'Explorez la vie des saints et des grandes figures catholiques, leurs vertus et leurs enseignements.',
-    url: 'https://vie-de-saints.vercel.app/',
+    url: 'https://www.appcatholique.com/vie-de-saint',
     images: [
       {
         url: '/preview.png',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
   alternates: {
-    canonical: 'https://vie-de-saints.vercel.app/'
+    canonical: 'https://www.appcatholique.com/vie-de-saint'
   },
   robots: {
     index: true,

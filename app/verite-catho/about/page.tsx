@@ -11,7 +11,7 @@ export default function AProposPage() {
        id: 'vie-des-saints',
       titre: "🙏 La Vie des Saints",
       description: "Découvrez les témoins exemplaires de la foi chrétienne à travers leurs enseignements inspirants.",
-      url: "https://vie-de-saints.vercel.app/"
+      url: "https://www.appcatholique.com/vie-de-saint"
     },
     {
       id: 'bearn',

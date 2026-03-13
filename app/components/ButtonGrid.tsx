@@ -9,7 +9,7 @@ export default function ButtonGrid() {
       icon: "🙏",
       color: "from-blue-600 to-blue-700",
       hoverColor: "hover:from-blue-600 hover:to-blue-700",
-      url: "https://vie-de-saints.vercel.app/"
+      url: "https://www.appcatholique.com/vie-de-saint"
     },
     {
       title: "Les Écrits des Docteurs",

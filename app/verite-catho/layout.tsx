@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     'messe catholique',
     'tradition apostolique',
   ],
-  authors: [{ name: 'Catholicisme vs Hérésie', url: 'cato-heresie.vercel.app' }],
+  authors: [{ name: 'Catholicisme vs Hérésie', url: 'https://www.appcatholique.com/verite-catho' }],
   openGraph: {
     title: 'Catholicisme vs Hérésie — Défense de la Foi Catholique',
     description:
       'Analyse des différences entre la foi catholique et les doctrines protestantes. Bible, Tradition, Foi et Œuvres, Purgatoire expliqués avec clarté et fidélité à l’enseignement de l’Église.',
-    url: 'cato-heresie.vercel.app',
+    url: 'https://www.appcatholique.com/verite-catho',
     siteName: 'Catholicisme vs Hérésie',
     type: 'website',
     locale: 'fr_FR',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     images: ['/preview.jpg'],
   },
   alternates: {
-    canonical: 'cato-heresie.vercel.app',
+    canonical: 'https://www.appcatholique.com/verite-catho',
   },
 };
 
