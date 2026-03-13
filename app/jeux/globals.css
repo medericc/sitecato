@@ -7,14 +7,6 @@
   --foreground: #171717;
 }
 
-/* === Thème inline (nouveau système Tailwind) === */
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 /* === Mode sombre === */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,19 +15,42 @@
   }
 }
 
+/* === Thème (C'est ici que la magie opère pour Tailwind v4) === */
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* === TES COULEURS PERSONNALISÉES === */
+  --color-beige: #f5f5dc;
+  --color-sand: #e6d5b8;
+  --color-leather: #5c3a21;
+  --color-parchment: #fdf5e6;
+  
+  /* === TA PALETTE MARRON (BROWN) === */
+  --color-brown-50: #fdf8f5;
+  --color-brown-300: #d7ccc8;
+  --color-brown-600: #8d6e63;
+  --color-brown-700: #5d4037;
+  --color-brown-800: #4e342e;
+  --color-brown-900: #3e2723;
+
+  /* === TA POLICE PERSONNALISÉE === */
+  --font-times: "Times New Roman", Times, serif;
+}
+
 /* === Styles de base === */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans, Arial, Helvetica, sans-serif);
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
 }
 
-/* === Couche "base" personnalisée === */
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-
   body {
     @apply antialiased;
   }
