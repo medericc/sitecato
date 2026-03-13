@@ -74,7 +74,7 @@ const desktopName = rawName
         {/* Actions */}
         <div className="flex justify-between items-center">
         <Link
-  href={`/saint/${saint.id}`}
+  href={`/vie-de-saint/${saint.id}`}
   className="
     relative text-gold font-semibold text-sm
     hover:text-gold-dark transition-all
