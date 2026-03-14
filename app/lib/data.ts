@@ -340,6 +340,31 @@ Appeler un prêtre “père”, c’est reconnaître en lui un guide spirituel, 
       question: "La Sola Scriptura est la foi des premiers chrétiens.",
       reponse: `Aucun chrétien avant Luther (XVIᵉ siècle) n’a enseigné cela. La Sola Scriptura est non biblique, non historique, non apostolique.`
     },
+     {
+      id: "prophete",
+      question: "Rome est-elle prophétisée dans la Bible ?",
+      reponse: `Ésaïe prédit le transfert vers une autre nation, Jérémie annonce le châtiment de Jérusalem (Christ et figuier). Daniel prédit la destruction de la ville par un chef (Vespasien), remarquée mais mal interprétée par l'historien Flavius Josèphe, mieux comprise par Matthieu 24. Saint Éphrem souligne le passage de Juda à Judas (comme le temple attiré par l'argent). La pierre de Daniel 2:45 (Christ, Ps 2, qui est la vigne dont le Père est le vigneron et nous les ceps selon Aphraate) de ce royaume qui durera jusqu'à la fin (Daniel 2:44). `
+    ,  scripture: [
+    "Isaie 65:1",
+    "Jeremie 6:6",
+    "Daniel 2",
+    "Daniel 9",
+    "Daniel 11",
+    "Guerre des Juifs"
+  ]
+    },
+     {
+      id: "prophetiser",
+      question: "Rome est-elle prophétisée autre part ?",
+      reponse: `Selon Jean 19 et Matthieu 27, Rome reconnaît la vérité là où les Juifs la rejettent, faisant de Pilate le "prophète du royaume" d’après Saint Éphrem. Ce mouvement est confirmé dans Romains 9 et 10. Le bourreau se transforme en serviteur (la lance du centurion descelle ce que les chérubins avaient scellé dans la Genèse). Saint Augustin compare la fondation de Rome par Romulus et Rémus à Paul et Pierre (noces de l'Agneau). `
+   ,  scripture: [
+    "Cite de Dieu",
+    "Jean 19",
+    "Matthieu 27",
+    "Romains 9",
+    "Romains 10"
+  ]
+    },
     {
       id: "resume",
       question: "Résumé clair",
