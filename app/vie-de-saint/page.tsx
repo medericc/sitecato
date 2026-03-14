@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import SearchWithFilters from './components/SearchWithFilters'
+import Link from 'next/link'
 
 
 
@@ -23,6 +24,9 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 to-cream py-10 px-4">
+      
+      
+      <Link href="/">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-playfair text-4xl md:text-6xl font-bold text-gray-800 mb-6">
             Vie des Saints
@@ -32,7 +36,7 @@ export default function Home() {
           </p>
 
        
-        </div>
+        </div></Link>
       </section>
 
      

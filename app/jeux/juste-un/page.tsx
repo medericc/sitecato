@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import React, { useEffect, useMemo, useState } from 'react'
 
 type Category = {
@@ -679,12 +680,16 @@ function startGame() {
 
         {/* TITRE */}
         {!selectedCategory && (
-          <div>
+     <Link href="/jeux">     <div>
+
             <h2 className="text-2xl font-bold">Bienvenue sur Juste Un</h2>
+          
+          
+          
             <p className="mt-2 text-slate-600">
               Choisis une catégorie ci-dessous puis appuie sur <strong>Lancer</strong>.
             </p>
-          </div>
+          </div></Link>
         )}
 
         {/* CATEGORIES EN HAUT */}

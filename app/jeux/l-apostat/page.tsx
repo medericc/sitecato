@@ -15,9 +15,10 @@ export default function Home() {
       <div className="text-center max-w-2xl mx-auto">
         {/* En-tête */}
         <div className="mb-12">
+          <Link href="/jeux">
           <h1 className="font-cinzel text-5xl md:text-6xl font-bold gold-text mb-4">
             L&apos;APOSTAT
-          </h1>
+          </h1></Link>
           <div className="parchment-bg rounded-2xl p-6 gold-border">
             <p className="text-gray-200 text-lg md:text-xl leading-relaxed">
               ⚠️ Un ou deux intrus se cachent parmi vous...

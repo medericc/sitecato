@@ -6,10 +6,13 @@ export default function HomeScreen() {
     <div className="min-h-screen bg-gradient-to-b from-beige via-sand to-leather flex items-center justify-center p-4">
       <div className="w-full max-w-2xl">
         <div className="bg-parchment/90 rounded-lg p-6 shadow-lg border-2 border-brown-800">
+       
+       <Link href="/jeux">
+       
           <h1 className="text-3xl md:text-4xl font-bold text-brown-900 font-times text-center tracking-wider mb-4">
             TRIVIA BIBLIQUE
           </h1>
-          
+          </Link>
           <div className="border-t border-brown-600 my-6"></div>
           
           <div className="text-brown-700 text-6xl text-center mb-4">📖</div>
