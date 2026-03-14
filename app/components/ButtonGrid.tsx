@@ -119,6 +119,53 @@ export default function ButtonGrid() {
         ))}
       </div>
 
+
+ <div className="mt-14 mx-auto">
+
+        <div
+          onClick={() => window.open("https://wikibible.fr", "_blank")}
+          className="
+          cursor-pointer
+          bg-gradient-to-br from-indigo-600 to-indigo-700
+          hover:from-indigo-700 hover:to-indigo-800
+          text-white
+          rounded-2xl
+          shadow-xl
+          p-8 md:p-10
+          transition
+          hover:scale-[1.02]
+          flex flex-col
+          items-center
+          text-center
+        "
+        >
+
+          <div className="text-6xl mb-4">
+            📖
+          </div>
+
+          <h3 className="text-2xl font-bold mb-2">
+            WikiBible
+          </h3>
+
+          <p className="text-white/90 max-w-xl">
+            Explorer la Bible de manière collaborative et approfondir la
+            compréhension des Écritures.
+          </p>
+
+          <div className="mt-5">
+            <span className="bg-white/25 px-6 py-3 rounded-full font-semibold">
+              Ouvrir WikiBible
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
       {/* Citation */}
       <div className="mt-15 text-center max-w-4xl mx-auto sm:block hidden">
         <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-md">
