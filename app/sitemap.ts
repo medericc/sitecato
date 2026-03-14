@@ -6,12 +6,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
     "/vie-de-saint",
-    "/livre-catholique",
+    // "/livre-catholique",
     "/verite-catho",
     "/jeux",
-    "/l-apostat",
-    "/juste-un",
-    "/trivia-biblique",
+    "/jeux/l-apostat",
+    "/jeux/juste-un",
+    "/jeux/trivia-biblique",
   ];
 
   return routes.map((route) => ({
