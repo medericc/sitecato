@@ -2,9 +2,9 @@ export default function AProposPage() {
   const sites = [
     {
       id: 'ecrits-catholiques',
-      titre: '📚 Écrits Catholiques',
+      titre: '📚 Ressources Catholiques',
       description: "Découvrez les textes des Pères et Docteurs de l'Église, méditations et enseignements pour approfondir la foi.",
-      url: 'https://www.sourcetheologique.com/',
+      url: 'https://www.appcatholique.com',
     },
     
     {
@@ -17,7 +17,7 @@ export default function AProposPage() {
       id: 'bearn',
       titre: '🏰 Le Béarn Chrétien',
       description: "Plongez dans l'histoire chrétienne du Béarn, ses églises, traditions et patrimoine spirituel.",
-      url: 'https://bearn.vercel.app/',
+      url: 'https://www.histoirebearn.fr/',
     },
     {
       id: 'youtube-catholicisme',
