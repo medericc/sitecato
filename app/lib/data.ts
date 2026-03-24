@@ -365,6 +365,25 @@ Appeler un prêtre “père”, c’est reconnaître en lui un guide spirituel, 
     "Romains 10"
   ]
     },
+
+     {
+      id: "prophetiser",
+      question: "Rome est-elle prophétisée autre part ?",
+      reponse: `Selon Jean 19 et Matthieu 27, Rome reconnaît la vérité là où les Juifs la rejettent, faisant de Pilate le "prophète du royaume" d’après Saint Éphrem. Ce mouvement est confirmé dans Romains 9 et 10. Le bourreau se transforme en serviteur (la lance du centurion descelle ce que les chérubins avaient scellé dans la Genèse). Saint Augustin compare la fondation de Rome par Romulus et Rémus à Paul et Pierre (noces de l'Agneau). `
+   ,  scripture: [
+    "Cite de Dieu",
+    "Jean 19",
+    "Matthieu 27",
+    "Romains 9",
+    "Romains 10"
+  ]
+    },
+       {
+      id: "prophetiser",
+      question: "Une preuve dans les conciles de cette primauté ?",
+      reponse: `La lettre du pape Agathon évoque le fait que Pierre a reçu du Christ la charge de paître les « brebis spirituelles » de l’Église. Elle affirme que l’Église de Rome ne s’est jamais détournée de la voie de la vérité et n’a jamais succombé aux hérésies. Elle soutient également que les Églises chrétiennes ont toujours suivi l’enseignement romain comme une règle de foi. Enfin, dans le compte rendu donné à l’empereur, il est dit : « Pierre a parlé, c’est dogmatique » (Doc 18).`
+   
+    },
     {
       id: "resume",
       question: "Résumé clair",
