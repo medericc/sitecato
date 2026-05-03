@@ -791,6 +791,81 @@ Appeler un prêtre “père”, c’est reconnaître en lui un guide spirituel, 
 
       ] 
     }, 
+     {
+      id: "bibe",
+      titre: "Les catholiques ne suivent pas la bible !",
+      questions: [
+        {
+          id: "prier-",
+          question: "La bible est la première Révélation ?",
+          reponse: `Non. La Bible est validé lors du synode de Rome, concile d'Hippone et Carthage, elle a 73 livres pas 66 ça c'est pour raison économique au XIXe siècle.`
+        },
+       
+      
+        {
+          id: "imble",
+          question: "On a les 4 évangiles !",
+          reponse: `Il y avait plusieurs évangiles (Judas,Marie,Jacques...) c'est le consensus des pères de l'Eglise (Irénée de Lyon par exemple) et le Synode de Rome qui les a tranchés.`,
+          scripture: []
+        },
+
+         {
+  id: "statuejetiens",
+  question: "Les pères sont en désaccord !",
+  reponse: `Effectivement, dans De Veritate St Thomas d'Aquin dit que même un Saint Jérôme ou Augustin n'est pas infaillible, c'est l'Eglise qui tranche comme le concile de Carthage qui donne raison à Ausgustin et pas à Jérôme (Jérôme s'est soumis à la décision car il n'est pas orgueilleux).` 
+, scripture: []
+} ,
+{
+  id: "image-bble",
+  question: "Les Conciles une invention Catholique !",
+  reponse: "Effectivement, dans Actes 15 nous voyons le Concile de Jérusalem décidait par les apôtres, comme dans Actes 6 où ils inventent les diacres. Pierre le pape est leader du groupe, comme dans Actes 1.15, est présent. L'apôtre Jean se soumettra à Clément, 4e pape, pour régler un problème à Corynthe ! Le pape est toujours là pour permettre un concile (Père, Fils, Pape comme Dieu, Moïse, Josué) comme la lettre d'Agathon.", 
+  scripture: ["Luc 10,16"]
+}
+,
+       
+          {
+          id: "pourq=uo",
+          question: "Le Mot Catholique n'est pas dans la bible !",
+          reponse: `Etienne meurt dans Actes 7 et les chrétiens sont nommés chrétiens dans Actes 11:26 pourtant il est chrétien. En 107 St Ignace d'Antioche disciple de Pierre précise que c'est l'Eglise Catholique.`
+        },
+        
+       {
+      id: "prophete",
+      question: "Rome est-elle prophétisée dans la Bible ?",
+      reponse: `Ésaïe prédit le transfert vers une autre nation, Jérémie annonce le châtiment de Jérusalem (Christ et figuier). Daniel prédit la destruction de la ville par un chef (Vespasien), remarquée mais mal interprétée par l'historien Flavius Josèphe, mieux comprise par Matthieu 24. Saint Éphrem souligne le passage de Juda à Judas (comme le temple attiré par l'argent). La pierre de Daniel 2:45 (Christ, Ps 2, qui est la vigne dont le Père est le vigneron et nous les ceps selon Aphraate) de ce royaume qui durera jusqu'à la fin (Daniel 2:44). `
+    ,  scripture: [
+    "Isaie 65:1",
+    "Jeremie 6:6",
+    "Daniel 2",
+    "Daniel 9",
+    "Daniel 11",
+    "Guerre des Juifs"
+  ]
+    },
+     {
+      id: "prophetiser",
+      question: "Rome est-elle prophétisée autre part ?",
+      reponse: `Selon Jean 19 et Matthieu 27, Rome reconnaît la vérité là où les Juifs la rejettent, faisant de Pilate le "prophète du royaume" d’après Saint Éphrem. Ce mouvement est confirmé dans Romains 9 et 10. Le bourreau se transforme en serviteur (la lance du centurion descelle ce que les chérubins avaient scellé dans la Genèse). Saint Augustin compare la fondation de Rome par Romulus et Rémus à Paul et Pierre (noces de l'Agneau). `
+   ,  scripture: [
+    "Cite de Dieu",
+    "Jean 19",
+    "Matthieu 27",
+    "Romains 9",
+    "Romains 10"
+  ]
+    },
+
+
+
+
+
+
+
+
+
+
+      ] 
+    }, 
  {
       id: "mediations-saints",
       titre: "Pourquoi prier les saints ?",
