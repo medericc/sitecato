@@ -119,23 +119,16 @@ export const themes: Domaine[] = [
   id: "arche",
   question: "Une analogie avec Marie ?",
   reponse: `Athanase d’Alexandrie, dans son homélie (Papyrus de Turin), compare Marie à l’Arche, car toutes deux sont couvertes par l’Esprit. Dans la Bible, en Apocalypse 11,19, l’Esprit Saint et l’Arche apparaissent avant la femme d’Apocalypse 12. Et lorsque l’on a l’Arche de l’Alliance (Marie), on gagne. L'arche de Noé a vaincu le péché avec ses enfants (à la croix on est enfant de Marie), direction le paradis.`,
-  scripture: ["Luc 1:28"]
+  scripture: [""]
 }
 ,
 
 
 
- {
-  id: "mere",
-  question: "Marie est la mère de tous les croyants ?",
-  reponse: `Dans Luc 1,28, l’ange ne dit pas « Bonjour Marie », mais utilise un titre unique : « kecharitoménè ». C’est un parfait grec qui signifie : « toi qui as été comblée de grâce et qui le restes durablement ». Cette grâce ne vient pas d’elle, mais du Christ ; elle est donc la première sauvée, de manière prévenante.`,
-  scripture: ["Luc 1:28"]
-}
-,
   {
   id: "immaculee",
   question: "D’où vient que Marie est l’Immaculée Conception ?",
-  reponse: `Theodotus (évêque du Ve siècle) nous dit que Marie n’a pas la faute de la femme. Sophronie de Jérusalem dit : « femme sans tache », rendu plus pure (comme le Christ) donc pas de purification supplémentaire.`,
+  reponse: `Theodotus (évêque du Ve siècle) nous dit que Marie n’a pas la faute de la femme. Marie a elle-même participé immédiatement aux soins de Jésus après son accouchement !`,
   scripture: []
 },
         {
